@@ -1,0 +1,32 @@
+{
+  "name": "sixty-sixty",
+  "version": "1.0.0",
+  "description": "Convert decimal seconds to mm:ss.SSS",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push origin HEAD && git push origin v${npm_package_version}",
+    "test": "tap test --100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eoinsha/sixty-sixty.git"
+  },
+  "keywords": [
+    "sexagesimal",
+    "seconds",
+    "time",
+    "format"
+  ],
+  "author": "Eoin Shanaghy <eoin@showpiper.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eoinsha/sixty-sixty/issues"
+  },
+  "homepage": "https://github.com/eoinsha/sixty-sixty#readme",
+  "dependencies": {
+    "leftpad": "0.0.0"
+  },
+  "devDependencies": {
+    "tap": "^7.1.2"
+  }
+}
