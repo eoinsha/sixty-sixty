@@ -1,6 +1,6 @@
 {
   "name": "sixty-sixty",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Convert decimal seconds to mm:ss.SSS",
   "main": "index.js",
   "scripts": {
