@@ -3,7 +3,6 @@ var SixtySixty = require('..');
 
 test('formatting without hour component', function (t) {
   var ss = SixtySixty();
-  console.log(ss(0), ss(-1), ss(Infinity), ss(''), ss(NaN), ss());
   t.equal(ss(0), '00:00.000');
   t.equal(ss(60), '01:00.000');
   t.equal(ss(666.6666), '11:06.667');
