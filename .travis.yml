@@ -9,6 +9,12 @@ node_js:
   - '14'
   - '15'
 
+os:
+  - 'linux'
+  - 'osx'
+  - 'windows'
+  - 'freebsd'
+
 notifications:
   email:
     - eoin.shanaghy@gmail.com
