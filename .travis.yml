@@ -1,9 +1,14 @@
 language: node_js
 node_js:
-  - '0.10'
-  - '4'
-  - '5'
-  - '6'
+  - '8'
+  - '9'
+  - '10'
+  - '11'
+  - '12'
+  - '13'
+  - '14'
+  - '15'
+
 notifications:
   email:
     - eoin.shanaghy@gmail.com
