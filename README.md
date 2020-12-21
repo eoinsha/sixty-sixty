@@ -11,14 +11,15 @@ Ultra-simple formatting of absolute time given a decimal seconds floating-point 
 - `SSS` - milliseconds
 
 # Usage
-```
+
+```js
 var SixtySixty = require('sixty-sixty')();
 console.log(SixtySixty(0)); // --> '00:00.000'
 console.log(SixtySixty(60)); // --> '01:00.000'
 console.log(SixtySixty(666.6666)); // --> '11:06.667'
 console.log(SixtySixty(6025.5432)); // --> '100:25.543'
 ```
-```
+```js
 var SixtySixty = require('sixty-sixty')({ showHours: true });
 console.log(SixtySixty(0)); // --> '00:00:00.000'
 console.log(SixtySixty(60)); // --> '00:01:00.000'
