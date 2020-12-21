@@ -13,7 +13,7 @@ os:
   - 'linux'
   - 'osx'
   - 'windows'
-  - 'freebsd'
+  #- 'freebsd'
 
 notifications:
   email:
